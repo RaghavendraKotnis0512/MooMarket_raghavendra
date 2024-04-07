@@ -82,10 +82,17 @@ function SliderComp() {
                 component="img"
                 sx={{
                   height: 350,
+<<<<<<< HEAD
                   display: "block",
                   borderRadius: "10px", // Adding border radius
                   overflow: "hidden",
                   width: "100%",
+=======
+                  display: 'block',
+                  borderRadius: '10px', 
+                  overflow: 'hidden',
+                  width: '100%',
+>>>>>>> c8e23cb (about)
                 }}
                 src={step.imgPath}
                 alt={step.label}
