@@ -89,6 +89,15 @@ const Count = () => {
       <div className="text-xl font-bold mt-4 text-center">Total Price: {totalPrice}</div>
       <div className="flex justify-center mt-4">
         <button
+          className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded mr-2"
+          onClick={() => {
+            // Add logic to navigate back
+            console.log('Navigate back');
+          }}
+        >
+          Back
+        </button>
+        <button
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
           onClick={handleProceed}
         >
